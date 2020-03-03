@@ -44,19 +44,19 @@ Below is an explanation of the folders within
 ## Differential expression - with Porechop (deprecated)
 *This section is the main part of my thesis. It takes raw Nanopore sequencing data, demultiplexs them, sorts them by gene, and then uses Flair to count splice isoform expression*
 
-1.
+1. ...
 	- Demultiplexes reads using Porechop
-1.
+1. ...
 	- Maps reads to the genome
-1.
+1. ...
 	- Uses Flair to perform differential splicing analysis
 
 ## Differential expression - without Porechop
 *This section is the same as the previous section, but with the scripts slightly altered to not need Porechop. The MinKNOW software now performs demultiplexing natively, sorting reads with each barcode into its own folder. This workflow takes this into account, and goes straight to mapping and Flairing.*
 
-1. 
+1. ...
 	- Maps reads to the genome
-1.
+1. ...
 	- Uses Flair to perform differential splicing analysis
 
 ## Statistical analysis of differential expression
