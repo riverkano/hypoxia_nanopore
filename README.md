@@ -23,11 +23,11 @@ Below is an explanation of the folders within
 | Directory | Notes | Barcode key |
 |-----------|-------|---------------|
 | /pilotpilot/ | pilotpilot data. Sequencing data using only four barcodes, for testing purposes. You probably don't need it. | |
-| /20190613_failedrun/ | A failed run, done the same time as the pilotpilot. You definitely don't need this. | |
-| /EGLN1/ | Full run. iPSC cDNA amplified with barcoded primers amplifying EGLN1, done in two batches of 50 barcodes. Already demultiplexed by the GridION. | |
-| /EGLN1/cat/ | The above, with all reads from the same barcode concatenated into a single file each. cat1 and cat2 denote whether the reads are from batch 1 or 2 - important for figuring out actual identity of the reads| |
-| /hif1a/ | Full run. iPSC cDNA amplified with barcoded primers amplifying HIF1a, done in two batches of 50 barcodes. Already demultiplexed by the GridION. No analysis has yet been performed on it (but I'm not sure HIF1a was actually amplified that much)| |
-| EPAS_VEGFA | Full run. iPSC cDNA amplified with barcoded primers amplifying both VEGFA and EPAS1 at the same time, done in two batches (batches separated for first 50 barcodes and second 50 barcodes - the genes are all mixed together). EPAS1 amplification unsuccessful. | |
+| /20190613_failedrun/ | A failed run, done the same time as the pilotpilot. You definitely don't need this. | 1 |
+| /EGLN1/ | Full run. iPSC cDNA amplified with barcoded primers amplifying EGLN1, done in two batches of 50 barcodes. Already demultiplexed by the GridION. | 1 |
+| /EGLN1/cat/ | The above, with all reads from the same barcode concatenated into a single file each. cat1 and cat2 denote whether the reads are from batch 1 or 2 - important for figuring out actual identity of the reads| 1 |
+| /hif1a/ | Full run. iPSC cDNA amplified with barcoded primers amplifying HIF1a, done in two batches of 50 barcodes. Already demultiplexed by the GridION. No analysis has yet been performed on it (but I'm not sure HIF1a was actually amplified that much)| 2 |
+| EPAS_VEGFA | Full run. iPSC cDNA amplified with barcoded primers amplifying both VEGFA and EPAS1 at the same time, done in two batches (batches separated for first 50 barcodes and second 50 barcodes - the genes are all mixed together). EPAS1 amplification unsuccessful. | 1 |
 
 ## pilotpilot
 *This section was done as a test of the Nanopore system. It takes reads from four barcodes and two genes that were all sequenced together, demultiplexes them, sorts them by gene, calculates the lengths of the reads, and creates a histogram for each gene giving the distribution of read lengths. This gives a bit of an indication of splice isoforms.*
