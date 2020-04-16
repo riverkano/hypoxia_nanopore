@@ -21,7 +21,7 @@ All raw sequencing data can be found in the Spartan computing cluster, at:
 Below is an explanation of the folders within
 ### Raw sequencing data
 | Directory | Notes |
-|-----------|-------|---------------|
+|-----------|-------|
 | /pilotpilot/ | pilotpilot data. Sequencing data using only four barcodes, for testing purposes. You probably don't need it. |
 | /20190613_failedrun/ | A failed run, done the same time as the pilotpilot. You definitely don't need this. |
 | /EGLN1/ | Full run. iPSC cDNA amplified with barcoded primers amplifying EGLN1, done in two batches of 50 barcodes. Already demultiplexed by the GridION. |
