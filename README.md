@@ -62,3 +62,13 @@ The section requires a file referred to as VEGFA_counts.tsv - this will be the t
 	- Creates graphs of the differences in expression for a given isoform. If you were redoing this, I'd make one script that can do all the isoforms in order, rather than changing the isoform manually and doing it over and over, which is what I did.
 1. t-test.R
 	- Performs pairwise t-tests to see if there are statistically significant differences in isoform expression between conditions.
+
+## Barcode key
+The file barcodes.csv has the key to the barcodes. Columns are as follows:
+
+Sample number, sample code, RNA extraction batch, lot, barcode, O2, time, genotype, cell line
+
+Lot: as there are more samples tham barcodes, each Nanopore run is separated into two lots.
+O2: atm = atmospheric oxygen. 0 = time zero, so oxygen is irrelevant.
+time: incubation time in hours.
+genotype: dai = Dai Chinese background. and = Andean background. wt = wildtype. mu = mutant.
